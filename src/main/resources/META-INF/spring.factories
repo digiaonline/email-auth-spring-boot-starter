@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.starcut.auth.email.configuration.EmailAuthConfiguration,\
+  com.starcut.auth.email.link.LoginLinkProvider,\
+  com.starcut.auth.email.service.EmailLoginService,\
+  com.starcut.auth.email.controller.AuthenticationController,\
+  org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration,\
+  org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
