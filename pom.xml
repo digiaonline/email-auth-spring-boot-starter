@@ -5,7 +5,7 @@
 
 	<groupId>com.starcut</groupId>
 	<artifactId>email-auth-spring-boot-starter</artifactId>
-	<version>0.0.1c-SNAPSHOT</version>
+	<version>0.0.1c</version>
 	<packaging>jar</packaging>
 
 	<name>email-auth-spring-boot-starter</name>
@@ -26,10 +26,13 @@
 	
 	<repositories>
 		<repository>
-			<id>GHcommon</id>
-			<name>common-auth-spring-boot-starter</name>
-			<url>https://maven.pkg.github.com/digiaonline/common-auth-spring-boot-starter</url>
-		</repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-starcut-springbootutils</id>
+			<name>bintray</name>
+			<url>https://dl.bintray.com/starcut/springbootutils</url>
+		</repository>	
 	</repositories>
 
 	<dependencies>
