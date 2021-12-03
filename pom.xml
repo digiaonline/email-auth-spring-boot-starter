@@ -24,6 +24,19 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<repositories>
+	  <repository>
+	    <id>digiamobile-spring-boot-auth</id>
+	    <url>https://packagecloud.io/digiamobile/spring-boot-auth/maven2</url>
+	    <releases>
+	      <enabled>true</enabled>
+	    </releases>
+	    <snapshots>
+	      <enabled>true</enabled>
+	    </snapshots>
+	  </repository>
+	</repositories>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
